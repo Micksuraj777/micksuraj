@@ -5,19 +5,19 @@
 
 @font-face {
     font-family: 'Protest';
-    src: url("./../public/fonts/ProtestRevolution-Regular.ttf");
+    src: url("./assets/fonts/ProtestRevolution-Regular.ttf");
 }
 @font-face {
     font-family: 'Anton';
-    src: url("./../public/fonts/Anton-Regular.ttf");
+    src: url("./assets/fonts/Anton-Regular.ttf");
 }
 @font-face {
     font-family: 'Kode';
-    src: url("./../public/fonts/KodeMono-Regular.ttf");
+    src: url("./assets/fonts/KodeMono-Regular.ttf");
 }
 @font-face {
     font-family: 'Anta';
-    src: url("./../public/fonts/Anta-Regular.ttf");
+    src: url("./assets/fonts/Anta-Regular.ttf");
 }
 
 .text-gradient {
@@ -35,3 +35,20 @@
   .filtered-image {
     filter: brightness(0) invert(1) grayscale(1);
   }
+
+  /* Width */
+::-webkit-scrollbar {
+    width: 0px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: black;
+  }
+  
+  
