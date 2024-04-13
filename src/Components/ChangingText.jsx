@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const ChangingText = () => {
-  const texts = ["Creative Developer", "Frontend Developer", "Prompt Engineer","Android Developer"];
+  const texts = ["Creative Developer", "Frontend Developer", "Prompt Engineering","Android Developer"];
   const [currentTextIndex, setCurrentTextIndex] = useState(0);
 
   useEffect(() => {
@@ -13,8 +13,8 @@ const ChangingText = () => {
   }, []);
 
   return (
-    <div>
-      <p className='text-[200px] ml-[325px] font-anton text-gray-700'>{texts[currentTextIndex]}</p>
+    <div className='w-full'>
+      <p className='text-[200px] text-center font-anton text-gray-700'>{texts[currentTextIndex]}</p>
     </div>
   );
 };
